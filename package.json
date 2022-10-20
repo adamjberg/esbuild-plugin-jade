@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-plugin-jade",
+  "version": "0.0.1",
+  "repository": "adamjberg/esbuild-plugin-jade",
+  "description": "esbuild plugin to load jade files",
+  "main": "src/index.js",
+  "author": "Adam Berg",
+  "license": "ISC",
+  "peerDependencies": {
+    "jade": "^1"
+  },
+  "files": ["src"],
+  "keywords": ["esbuild", "jade", "esbuild-plugin"]
+}
