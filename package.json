@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-jade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "adamjberg/esbuild-plugin-jade",
   "description": "esbuild plugin to load jade files",
   "main": "src/index.js",

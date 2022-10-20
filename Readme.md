@@ -1,26 +1,26 @@
-# esbuild-plugin-pug
+# esbuild-plugin-jade
 
-Import plugin for [pug](https://pugjs.org/) (and jade) files for [esbuild](https://esbuild.github.io/)
+Import plugin for jade files for [esbuild](https://esbuild.github.io/)
 
 ## Install
 
 ```bash
-npm i -D esbuild-plugin-pug
+npm i -D esbuild-plugin-jade
 ```
 
 ## Use
 
 ```js
-const pugPlugin = require('esbuild-plugin-pug');
+const jadePlugin = require('esbuild-plugin-jade');
 
 require('esbuild')
   .build({
     entryPoints: ['src/index.ts'],
     bundle: true,
     platform: "node",
-    outfile: 'built/pug.js',
+    outfile: 'built/jade.js',
     plugins: [
-      pugPlugin()
+      jadePlugin()
     ],
   })
   .catch(() => process.exit(1));
